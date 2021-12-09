@@ -1,15 +1,58 @@
 body{
-font-family:verdana;
+font-family: 'Source Sans Pro', sans-serif;
 text-align: center;
-background-color:#C4C4C4;
+background-color:#f5f5f5;
+margin:0;
+
+}
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
 td, th {
-  border: 0px solid #dddddd;
+  border: 0px solid #1d825d;
   text-align: center;
   padding: 0px;
 }
+th:nth-child(odd) {
+  background-color: #1d825d;
+  padding: 14px 18px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00cc81;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #121100;
+}
+
+.active {
+  background-color: #121100;
+}
+.content {
+max-width: 500px;
+  margin: auto;
+}
+.navbar {
+  height: 48px;
 }

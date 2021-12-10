@@ -11,12 +11,12 @@ table {
 }
 
 td, th {
-  border: 0px solid #1d825d;
+  border: 0px solid #cfcfcf;
   text-align: center;
   padding: 0px;
 }
 th:nth-child(odd) {
-  background-color: #1d825d;
+  background-color:#cfcfcf;
   padding: 14px 18px;
 }
 ul {
@@ -24,7 +24,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00cc81;
+  background-color: #8f00f5;
   position: fixed;
   top: 0;
   width: 100%;
